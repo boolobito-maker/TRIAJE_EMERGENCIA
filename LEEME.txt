@@ -1,0 +1,11 @@
+TRIAJE DE EMERGENCIAS - MAX-HEAP (Java Swing)
+
+Como ejecutar:
+  - Windows: doble clic en ejecutar.bat   (necesita JDK 21 o superior)
+  - IntelliJ: abrir la carpeta (pom.xml) y ejecutar fmrPrin.main
+
+Archivos (src/main/java):
+  Paciente.java   -> datos del paciente (nombre, edad, sintoma, prioridad, orden de llegada)
+  MaxHeap.java    -> el heap: insertar (sube), extraer (baja), ordenReal
+  PanelArbol.java -> dibuja el arbol
+  fmrPrin.java    -> ventana principal y botones

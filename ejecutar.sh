@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p out
+javac -encoding UTF-8 -d out src/main/java/*.java && java -cp out fmrPrin
